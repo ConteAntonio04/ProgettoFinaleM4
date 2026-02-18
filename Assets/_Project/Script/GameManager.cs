@@ -11,18 +11,22 @@ public class GameManager : MonoBehaviour
     [Header("Timer Settings")]
     [SerializeField]
     private float levelTime = 120f;
-    public TextMeshProUGUI timerText;
+    [SerializeField]
+    private TextMeshProUGUI timerText;
     private float currentTime;
 
     [Header("Score Settings")]
     [SerializeField]    
     private int winScore = 200;
-    public TextMeshProUGUI scoreText;
+    [SerializeField]
+    private TextMeshProUGUI scoreText;
     private int score = 0;
 
     [Header("UI Panels")]
-    public GameObject winUI;
-    public GameObject loseUI;
+    [SerializeField]
+    private GameObject winUI;
+    [SerializeField]
+    private GameObject loseUI;
 
     private bool gameEnded = false;
 

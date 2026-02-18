@@ -12,7 +12,7 @@ public class VisualSystem : MonoBehaviour
 
     private float yRotation = 0f;
 
-    private void Start()
+    void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;

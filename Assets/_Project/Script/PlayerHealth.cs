@@ -7,9 +7,10 @@ public class PlayerHealth : MonoBehaviour
     [Header("Health Settings")]
     [SerializeField]
     private int maxHealth = 100;
-
-    public Slider healthBar;
-    public TextMeshProUGUI healthText;
+    [SerializeField]
+    private Slider healthBar;
+    [SerializeField]
+    private TextMeshProUGUI healthText;
 
     private int currentHealth = 0;
 
