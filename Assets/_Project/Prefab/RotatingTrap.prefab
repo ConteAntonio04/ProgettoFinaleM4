@@ -85,9 +85,9 @@ CapsuleCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.5
-  m_Height: 6
+  m_Height: 5.5
   m_Direction: 2
-  m_Center: {x: 0.5, y: 0.5, z: 0.5}
+  m_Center: {x: 0, y: 0.3, z: 0}
 --- !u!114 &1082508731213137703
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -115,7 +115,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3749bb2237a11446a350f2a6378495c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 200
+  rotationSpeed: 500
 --- !u!1 &6449416956852704357
 GameObject:
   m_ObjectHideFlags: 0
@@ -364,7 +364,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 17
+  m_VersionIndex: 29
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -475,6 +475,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: LongSpine (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1292478057734048818, guid: 29944f816672022478672c1d0d989070,
+        type: 3}
+      propertyPath: m_VersionIndex
+      value: 7856
+      objectReference: {fileID: 0}
     - target: {fileID: 6757339544272016229, guid: 29944f816672022478672c1d0d989070,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -552,7 +557,7 @@ PrefabInstance:
     - target: {fileID: 1292478057734048818, guid: 29944f816672022478672c1d0d989070,
         type: 3}
       propertyPath: m_VersionIndex
-      value: 7847
+      value: 7859
       objectReference: {fileID: 0}
     - target: {fileID: 6757339544272016229, guid: 29944f816672022478672c1d0d989070,
         type: 3}
