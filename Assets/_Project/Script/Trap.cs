@@ -10,6 +10,8 @@ public class Trap : MonoBehaviour
     [SerializeField]
     private float distance = 3f;
     [SerializeField]
+    private Vector3 movePos;
+
     private Vector3 startPos;
 
     void Start()
@@ -19,10 +21,10 @@ public class Trap : MonoBehaviour
 
     void Update()
     {
-        transform.position = startPos + Vector3.right * Mathf.Sin(Time.time * speed) * distance;
+        transform.position = startPos + movePos * Mathf.Sin(Time.time * speed) * distance;
     }
 
-    private void OnCollisionEnter(Collision collision)
+    void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {

@@ -108,6 +108,8 @@ public class GameManager : MonoBehaviour
         gameEnded = true;
         if (winUI != null) winUI.SetActive(true);
         Time.timeScale = 0f;
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
     }
 
     public void LoseGame()
@@ -117,6 +119,8 @@ public class GameManager : MonoBehaviour
         gameEnded = true;
         if (loseUI != null) loseUI.SetActive(true);
         Time.timeScale = 0f;
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
     }
 
    
