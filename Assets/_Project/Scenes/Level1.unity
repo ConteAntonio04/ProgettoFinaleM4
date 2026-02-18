@@ -5533,9 +5533,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d40eecdaa5c9244ab76375d62bc08c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelTime: 2
+  levelTime: 20
   timerText: {fileID: 169538263}
-  winScore: 1
+  winScore: 10
   scoreText: {fileID: 1664557715}
   winUI: {fileID: 1482449676}
   loseUI: {fileID: 1908939956}
